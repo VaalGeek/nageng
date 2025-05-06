@@ -1,5 +1,5 @@
 <template>
-  <nav class="shadow-md bg-[#0097B2]">
+  <nav class="shadow-md bg-[#dde8ea]">
     <div class="container mx-auto flex justify-between items-center px-4 py-3">
       <!-- Logo -->
       <NuxtLink to="/" class="text-2xl font-bold text-teal-700">
@@ -9,7 +9,7 @@
 
 
       <!-- Desktop Menu (Hidden on Mobile) -->
-      <ul v-if="showMenu" class="hidden md:flex gap-6 items-center text-white font-medium">
+      <ul v-if="showMenu" class="hidden md:flex gap-6 items-center text-black font-medium">
         <NavItem label="Home" to="/" />
 
         <NavDropDown label="About">

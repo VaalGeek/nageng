@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-teal-800 text-white text-sm pl-20">
+  <div class="w-full bg-[#dde8ea] text-black text-sm pl-20">
     <div class="flex flex-col md:flex-row items-center justify-between px-4 md:px-8 py-3 gap-3 md:gap-0">
       <!-- Social Media -->
       <div class="flex flex-col sm:flex-row items-center gap-3">

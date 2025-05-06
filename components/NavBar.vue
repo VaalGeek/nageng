@@ -29,7 +29,7 @@
 
 
       <!-- Mobile Contact Info (visible only on small screens) -->
-      <div class="md:hidden flex flex-col ml-4 gap-1 text-white text-xs">
+      <div class="md:hidden flex flex-col ml-4 gap-1 text-black text-xs">
         <div class="flex items-center gap-1">
           <UIcon name="i-heroicons-map-pin" class="w-4 h-4" />
           <span>{{ config.public.address }}</span>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-[#dde8ea] text-black text-sm pl-20">
+  <div class="w-full bg-teal-800 text-white text-sm pl-20">
     <div class="flex flex-col md:flex-row items-center justify-between px-4 md:px-8 py-3 gap-3 md:gap-0">
       <!-- Social Media -->
       <div class="flex flex-col sm:flex-row items-center gap-3">
@@ -10,14 +10,14 @@
             :key="icon"
             class="bg-teal-700 rounded-full w-8 h-8 flex items-center justify-center hover:bg-teal-600 cursor-pointer transition"
           >
-            <UIcon :name="icon" class="text-black w-4 h-4" />
+            <UIcon :name="icon" class="text-white w-4 h-4" />
           </div>
         </div>
       </div>
 
       <!-- Contact Info -->
       <div
-        class="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-2 text-black text-sm"
+        class="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-2 text-white text-sm"
       >
         <div
           v-for="item in contactItems"

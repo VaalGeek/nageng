@@ -1,5 +1,5 @@
 <template>
-  <nav class="shadow-md bg-white">
+  <nav class="shadow-md bg-[#0097B2]">
     <div class="container mx-auto flex justify-between items-center px-4 py-3">
       <!-- Logo -->
       <NuxtLink to="/" class="text-2xl font-bold text-teal-700">
@@ -9,7 +9,7 @@
 
 
       <!-- Desktop Menu (Hidden on Mobile) -->
-      <ul v-if="showMenu" class="hidden md:flex gap-6 items-center text-black font-medium">
+      <ul v-if="showMenu" class="hidden md:flex gap-6 items-center text-white font-medium">
         <NavItem label="Home" to="/" />
 
         <NavDropDown label="About">
@@ -29,7 +29,7 @@
 
 
       <!-- Mobile Contact Info (visible only on small screens) -->
-      <div class="md:hidden flex flex-col ml-4 gap-1 text-black text-xs">
+      <div class="md:hidden flex flex-col ml-4 gap-1 text-white text-xs">
         <div class="flex items-center gap-1">
           <UIcon name="i-heroicons-map-pin" class="w-4 h-4" />
           <span>{{ config.public.address }}</span>

@@ -34,19 +34,19 @@ import gsap from 'gsap'
 
 const slides = [
   {
-    title: 'Unlock Your Potential With Eduka',
-    description: 'Empowering students through quality education and modern tools.',
-    image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=2070&q=80'
+    title: 'Unlock Your Potential With Nagneg',
+    description: 'Empowering learners through quality education and modern tools.',
+    image: '/slides/1.jpeg'
   },
   {
-    title: 'Learn from Experts Anywhere',
-    description: 'Join thousands of learners around the world from the comfort of your home.',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=2071&q=80'
+    title: 'Nageng PS',
+    description: 'Quality education for all',
+    image: '/slides/2.jpeg'
   },
   {
-    title: 'Achieve Your Academic Dreams',
-    description: 'With the right guidance and community support, anything is possible.',
-    image: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=2071&q=80'
+    title: 'Nageng Primary',
+    description: 'Education First',
+    image: '/slides/3.jpeg'
   }
 ]
 
